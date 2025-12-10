@@ -1,0 +1,28 @@
+{
+  "name": "playwright-automation-mcp",
+  "version": "1.0.0",
+  "description": "Playwright automation project with MCP server integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "mcp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
